@@ -47,3 +47,13 @@ test('Episode Component has all Elements', () => {
         expect(element).toBeInTheDocument()
     })
 })
+
+// test("Episodes shows data when rendered with new episodes data", () => {
+//     const { queryAllByTestId, rerender } = render(<Episodes mockEpisode={[]} />);
+  
+//     expect(queryAllByTestId(/episode/i)).toHaveLength(0);
+  
+//     rerender(<Episodes episodes={mockEpisode} />);
+  
+//     expect(queryAllByTestId(/episode/i)).toHaveLength(8);
+//   });
