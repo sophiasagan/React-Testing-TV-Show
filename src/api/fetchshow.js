@@ -7,7 +7,7 @@ export const fetchShow = () => {
       )
       .then(res => res)
       .catch(err => {
-          console.log(err)
+          console.log('fetching api', err)
           return err
       })
   };
